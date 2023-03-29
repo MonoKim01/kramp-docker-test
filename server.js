@@ -1,11 +1,11 @@
-const express = require('express');
+const express = require("express");
 
-const PORT = 8080;
+const PORT = 80;
 
 //APP
 const app = express();
-app.get('/', (req, res) => {
-    res.send("mymy")
+app.get("/", (req, res) => {
+  res.send("mymy");
 });
 
 app.listen(PORT);
