@@ -2,7 +2,7 @@ const express = require("express");
 
 const PORT = 8080;
 
-//APP 입니다
+//This is APP
 const app = express();
 app.get("/", (req, res) => {
   res.send("mymy");
