@@ -4,6 +4,12 @@ const PORT = 8080;
 
 //This is APP7
 const app = express();
+
+app.use("", (req, res) => {
+  console.log("req: ", req);
+  console.log("res: ", res);
+});
+
 app.get("/", (req, res) => {
   res.send("mymy");
 });
