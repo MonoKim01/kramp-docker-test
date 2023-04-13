@@ -8,5 +8,9 @@ app.get("/", (req, res) => {
   res.send("mymy");
 });
 
+app.get("/list", (req, res) => {
+  res.send("list-endpoint");
+});
+
 app.listen(PORT);
 console.log("Server is running");
