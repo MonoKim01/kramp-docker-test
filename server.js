@@ -12,7 +12,7 @@ app.use("", (req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("hello krampoline");
+  res.send("hello kakao");
 });
 
 app.get("/list", (req, res) => {
